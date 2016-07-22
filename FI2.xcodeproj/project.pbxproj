@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A2C68501D3ECFAD0097552F /* MSButtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2C684F1D3ECFAD0097552F /* MSButtonNode.swift */; };
 		2AF092AF1D3E876400492B6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF092AE1D3E876400492B6A /* AppDelegate.swift */; };
-		2AF092B11D3E876400492B6A /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2AF092B01D3E876400492B6A /* GameScene.sks */; };
 		2AF092B31D3E876400492B6A /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF092B21D3E876400492B6A /* GameScene.swift */; };
 		2AF092B51D3E876400492B6A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF092B41D3E876400492B6A /* GameViewController.swift */; };
 		2AF092B81D3E876400492B6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AF092B61D3E876400492B6A /* Main.storyboard */; };
@@ -16,6 +16,8 @@
 		2AF092BD1D3E876400492B6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AF092BB1D3E876400492B6A /* LaunchScreen.storyboard */; };
 		2AF092C81D3E876400492B6A /* FI2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF092C71D3E876400492B6A /* FI2Tests.swift */; };
 		2AF092D31D3E876400492B6A /* FI2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF092D21D3E876400492B6A /* FI2UITests.swift */; };
+		2AF092E21D3E8D4600492B6A /* fromInside.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2AF092E11D3E8D4600492B6A /* fromInside.caf */; };
+		2AF092E51D3E961800492B6A /* lockMeTwo.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2AF092E41D3E930000492B6A /* lockMeTwo.caf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,9 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A2C684F1D3ECFAD0097552F /* MSButtonNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSButtonNode.swift; sourceTree = "<group>"; };
 		2AF092AB1D3E876300492B6A /* FI2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FI2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AF092AE1D3E876400492B6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2AF092B01D3E876400492B6A /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		2AF092B21D3E876400492B6A /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		2AF092B41D3E876400492B6A /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		2AF092B71D3E876400492B6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,6 +53,9 @@
 		2AF092CE1D3E876400492B6A /* FI2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FI2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AF092D21D3E876400492B6A /* FI2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FI2UITests.swift; sourceTree = "<group>"; };
 		2AF092D41D3E876400492B6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AF092E11D3E8D4600492B6A /* fromInside.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fromInside.caf; sourceTree = "<group>"; };
+		2AF092E31D3E91C400492B6A /* lockMe.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = lockMe.caf; sourceTree = "<group>"; };
+		2AF092E41D3E930000492B6A /* lockMeTwo.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = lockMeTwo.caf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,8 +107,9 @@
 			isa = PBXGroup;
 			children = (
 				2AF092AE1D3E876400492B6A /* AppDelegate.swift */,
-				2AF092B01D3E876400492B6A /* GameScene.sks */,
 				2AF092B21D3E876400492B6A /* GameScene.swift */,
+				2A2C684F1D3ECFAD0097552F /* MSButtonNode.swift */,
+				2AF092E01D3E8D4600492B6A /* SFX */,
 				2AF092B41D3E876400492B6A /* GameViewController.swift */,
 				2AF092B61D3E876400492B6A /* Main.storyboard */,
 				2AF092B91D3E876400492B6A /* Assets.xcassets */,
@@ -129,6 +135,16 @@
 				2AF092D41D3E876400492B6A /* Info.plist */,
 			);
 			path = FI2UITests;
+			sourceTree = "<group>";
+		};
+		2AF092E01D3E8D4600492B6A /* SFX */ = {
+			isa = PBXGroup;
+			children = (
+				2AF092E31D3E91C400492B6A /* lockMe.caf */,
+				2AF092E41D3E930000492B6A /* lockMeTwo.caf */,
+				2AF092E11D3E8D4600492B6A /* fromInside.caf */,
+			);
+			path = SFX;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,10 +251,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AF092B11D3E876400492B6A /* GameScene.sks in Resources */,
+				2AF092E21D3E8D4600492B6A /* fromInside.caf in Resources */,
 				2AF092BD1D3E876400492B6A /* LaunchScreen.storyboard in Resources */,
 				2AF092BA1D3E876400492B6A /* Assets.xcassets in Resources */,
 				2AF092B81D3E876400492B6A /* Main.storyboard in Resources */,
+				2AF092E51D3E961800492B6A /* lockMeTwo.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +283,7 @@
 				2AF092B31D3E876400492B6A /* GameScene.swift in Sources */,
 				2AF092B51D3E876400492B6A /* GameViewController.swift in Sources */,
 				2AF092AF1D3E876400492B6A /* AppDelegate.swift in Sources */,
+				2A2C68501D3ECFAD0097552F /* MSButtonNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,6 +512,7 @@
 				2AF092D91D3E876400492B6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2AF092DA1D3E876400492B6A /* Build configuration list for PBXNativeTarget "FI2Tests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +521,7 @@
 				2AF092DC1D3E876400492B6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2AF092DD1D3E876400492B6A /* Build configuration list for PBXNativeTarget "FI2UITests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +530,7 @@
 				2AF092DF1D3E876400492B6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
