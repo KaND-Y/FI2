@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		2A2C68501D3ECFAD0097552F /* MSButtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2C684F1D3ECFAD0097552F /* MSButtonNode.swift */; };
 		2A973A021D48602500108CBE /* Levels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A973A011D48602500108CBE /* Levels.swift */; };
-		2A973A041D48605300108CBE /* RotationDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A973A031D48605300108CBE /* RotationDictionary.swift */; };
 		2AF092AF1D3E876400492B6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF092AE1D3E876400492B6A /* AppDelegate.swift */; };
 		2AF092B31D3E876400492B6A /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF092B21D3E876400492B6A /* GameScene.swift */; };
 		2AF092B51D3E876400492B6A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF092B41D3E876400492B6A /* GameViewController.swift */; };
@@ -42,7 +41,6 @@
 /* Begin PBXFileReference section */
 		2A2C684F1D3ECFAD0097552F /* MSButtonNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSButtonNode.swift; sourceTree = "<group>"; };
 		2A973A011D48602500108CBE /* Levels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Levels.swift; sourceTree = "<group>"; };
-		2A973A031D48605300108CBE /* RotationDictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotationDictionary.swift; sourceTree = "<group>"; };
 		2AF092AB1D3E876300492B6A /* FI2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FI2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AF092AE1D3E876400492B6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2AF092B21D3E876400492B6A /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -113,7 +111,6 @@
 				2AF092AE1D3E876400492B6A /* AppDelegate.swift */,
 				2AF092B21D3E876400492B6A /* GameScene.swift */,
 				2A973A011D48602500108CBE /* Levels.swift */,
-				2A973A031D48605300108CBE /* RotationDictionary.swift */,
 				2A2C684F1D3ECFAD0097552F /* MSButtonNode.swift */,
 				2AF092E01D3E8D4600492B6A /* SFX */,
 				2AF092B41D3E876400492B6A /* GameViewController.swift */,
@@ -289,7 +286,6 @@
 				2A973A021D48602500108CBE /* Levels.swift in Sources */,
 				2AF092B31D3E876400492B6A /* GameScene.swift in Sources */,
 				2AF092B51D3E876400492B6A /* GameViewController.swift in Sources */,
-				2A973A041D48605300108CBE /* RotationDictionary.swift in Sources */,
 				2AF092AF1D3E876400492B6A /* AppDelegate.swift in Sources */,
 				2A2C68501D3ECFAD0097552F /* MSButtonNode.swift in Sources */,
 			);
